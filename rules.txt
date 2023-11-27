@@ -3,9 +3,9 @@ cyan (C), yellow (Y), and green (G). You, the code breaker, are to
 guess the colors in the correct order, you have a chance to try 12 times.
 When you are prompted to guess, you will type a pattern like "R G Y B",
 and once you finish typing in the combination, check the scoreboards on the right.
-0 - right color, wrong space
-1 - right color, right space
-X - wrong color, wrong space
+0 - right color, wrong space (will be printed in yellow)
+1 - right color, right space (will be printed in green)
+X - wrong color, wrong space (will be printed in red)
 If you type in "R G Y B" and the correct pattern is "R G C P", then the scoreboard will print:
 *******
 *1   X*
