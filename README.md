@@ -19,3 +19,14 @@ If you type in another pattern like "G Y C R" and the correct pattern is "R G C 
 *0   1*
 *******
 **WARNING**: The placement in the scoreboard is NOT what you think!! :)
+
+#Style Guide
+Define array sizes with names such NUMARRAY and other unique names.
+Defined variables and created structures will need to be in all capitals. (ex: #define STACK)
+Similar function operations will be in same header files. (Ex: bold and color both effect looks)
+Headers to all .cpp files.
+If no arguments or return type exist write void to signal there are none.
+Names will have some sort of reference to their purpose. (Exception to variables initialized within the for loop condition.)
+Spaced out or indented with generosity.
+Comment complex parts of code and functions.
+camelCase
